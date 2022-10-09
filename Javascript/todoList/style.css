@@ -1,0 +1,58 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.main {
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-group {
+    z-index: 1;
+}
+
+.list-of-Task {
+
+    position: relative;
+    padding: .5rem .7rem;
+    margin: .5rem .6rem;
+    background-color: rgb(26, 75, 75);
+    font-size: 1.25rem;
+    color: white;
+}
+
+.list-of-Task:hover {
+    background-color: rgb(20, 126, 126);
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .4rem;
+    margin-right: .5rem;
+
+}
+
+.edtBtn {
+    background: green;
+}
+
+.delBtn {
+    color: rgb(121, 101, 101);
+    font: larger;
+    font-weight: bolder;
+}
+
+.delBtn:hover {
+    color: white;
+}
